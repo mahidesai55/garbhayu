@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main1{
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+    align-items: center;
+    padding:0 11rem;
+}
+.logo img{
+    width:33%;
+}
+.logo1 {
+    display: flex;
+}
+.logo1 .m1{
+    padding:0 0.5rem;
+}
+.logo1 .m1 a{
+    padding-left: 0.5rem;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(183, 181, 181); 
+    padding:10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.logo1 .m1 i{
+    padding-right: 2rem;
+    color:rgb(13, 13, 19);
+}
+.main1 .logo1 .m2 a{
+  border: 1px solid black;
+  text-decoration: none;
+  color:black;
+  padding:10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+
+}
+.main2 ul {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: red;
+    align-items: center;
+    text-transform: capitalize;
+}
+.main2 ul li{
+    list-style: none;
+}
+.main2 ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:16px;
+}
+.main2 ul li a i{
+    padding-left:0.5rem;
+}
+.main3{
+    display: flex;
+    justify-content: space-between;
+    padding:4rem 11rem;
+    font-size: 17px;
+}
+.main3 .p h1 span{
+    font-size: 40px;
+} 
+.main3 .p a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 3px 6px;
+}
+.main3 .p a i{
+    padding-left: 0.5rem;
+}
+.main4 h1{
+    text-align: center;
+}
+.main4 .img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:0 11rem;
+}
+.img1{
+    width:33%;
+    padding:2rem 0;
+} 
+.img1 img{
+    width:50%;
+    border-radius: 50%;
+    height: 190px;
+}
+.img1 h4{
+    padding:20px 0;
+    font-size: 16px;
+}
